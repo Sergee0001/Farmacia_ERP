@@ -23,10 +23,10 @@ namespace FarmaciaCRUD_V1.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Server=CASTRO;" +
+                "Server=miservidorlocal;" +
                 "Database=FarmaciaCRUD_V1;" +
                 "User id=sa;" +
-                "Password=948784915;" +
+                "Password=0123;" +
                 "MultipleActiveResultSets=true;" +
                 "Encrypt=False;"
                 );
